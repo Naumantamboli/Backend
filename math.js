@@ -22,11 +22,6 @@
 // export const g = 9.8;
 // export const PI = 3.14;
 
-let obj = {
-    name : nauman,
-    age : 20,
-    rollno : 57,
-    college : VIT,
-};
+import {sum} from "./abc.js"
 
-module.exports = obj;
+console.log(sum(1,5))
