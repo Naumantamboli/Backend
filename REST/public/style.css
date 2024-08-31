@@ -1,0 +1,43 @@
+h1{
+    color: maroon;
+}
+
+.post{
+    width: 550px;
+    background-color: antiquewhite;
+    border: 0.5px solid black;
+    margin: 5px 0px 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.username{
+    font-style: italic;
+}
+
+a{
+    display: block;
+}
+
+.btn{
+    box-sizing: border-box;
+    width: 55px;
+    margin-right: 4px;
+}
+
+.add{
+    margin: 0px 0px 10px 5px;
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
