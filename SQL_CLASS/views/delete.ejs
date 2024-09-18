@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 140px;
+            width: 200px;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+        input{
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Delete User</h3>
+    <form method="post" action="/users?_method=DELETE">
+        <label for="username">Name:</label>
+        <input type="text" name="username" placeholder="Enter username">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
