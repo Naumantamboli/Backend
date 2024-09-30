@@ -11,7 +11,10 @@ const chatSchema = new mongoose.Schema({
     },
     msg : {
         type : String,
-        maxLength : 50
+    },
+    created_at : {
+        type: Date,
+        default: Date.now // Automatically sets the current date
     }
 })
 
